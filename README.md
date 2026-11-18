@@ -1,8 +1,8 @@
 # Moonpetal Grove
 
 [![Make the best game](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01)
-[![Rank](https://make.fun/best-game-01/jefriidan15/moonpetal-grove/rank.svg)](https://make.fun/bounty/best-game-01)
-[![Reward](https://make.fun/best-game-01/jefriidan15/moonpetal-grove/reward.svg)](https://make.fun/bounty/best-game-01)
+[![Rank](https://make.fun/badge/best-game-01/jefriidan15/moonpetal-grove/rank.svg)](https://make.fun/bounty/best-game-01)
+[![Reward](https://make.fun/badge/best-game-01/jefriidan15/moonpetal-grove/reward.svg)](https://make.fun/bounty/best-game-01)
 
 **Moonpetal Grove** — a garden-defense arcade game for the
 [make.fun "Make the best game" bounty](https://make.fun/bounty/best-game-01).
