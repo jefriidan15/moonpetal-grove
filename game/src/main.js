@@ -24,7 +24,7 @@ function setStatus(text) {
 
 function describeState() {
   switch (world.state) {
-    case 'title': return 'Moonpetal Grove. Title screen. Press Enter to start.';
+    case 'title': return `${document.title}. Title screen. Press Enter to start.`;
     case 'playing':
       return `Playing. Score ${world.score} of ${C.targetScore}. `
         + `${Math.max(0, Math.ceil(C.dayLengthSec - world.time))} seconds to dusk. `

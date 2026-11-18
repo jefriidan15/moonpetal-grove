@@ -579,8 +579,13 @@ export class Renderer {
   }
 
   drawTitle(ctx, world) {
-    this.panel(ctx, 'MOONPETAL GROVE', [
-      'You keep the last garden on a drifting asteroid.',
+    // Heading and tagline come from the page head, stamped by main.ts at
+    // build time: rename the game in one place and this panel follows.
+    const heading = (document.title || 'Moonpetal Grove').toUpperCase();
+    const tagline = document.querySelector('meta[name="game-tagline"]')?.getAttribute('content')
+      || 'You keep the last garden on a drifting asteroid.';
+    this.panel(ctx, heading, [
+      tagline,
       'Catch seeds in your basket, plant them in the soil, water them to bloom.',
       'Swat blight meteors before they crush your plants.',
       `Reach ${C.targetScore} points before dusk.`,
